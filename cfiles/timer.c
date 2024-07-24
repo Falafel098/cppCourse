@@ -23,12 +23,6 @@ int main() {
 	printf("Stopwatch started. Press Ctrl + c to stop.\n"); 
 	
 	counter();
-	
-
-	stopTime = time(NULL);
-
-	elapsedTime = difftime(stopTime, startTime); /*returns the difference in time, in seconds*/
-	printf("\nElapsed time:  %2lf seconds\n", elapsedTime);	
 	 		
 	return 0;
 }
@@ -53,10 +47,6 @@ int counter(void) { /*void --> the function takes no arguments */
 			sleep(1);
 			second++; 
 			
-		
-
-
-	
 		}
 
 	}
